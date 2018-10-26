@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAO;EACL,KAAK,EAAE,IAAI;;ACDb,GAAI;EACF,KAAK,EAAE,IAAI",
+"sources": ["partials/footer.scss","partials/nav.scss"],
+"names": [],
+"file": "main.css"
+}
