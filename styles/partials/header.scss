@@ -44,7 +44,7 @@ header {
       }
     }
     .bean1 {
-      background-image: url(../../images/beanpart2.png);
+      background-image: url(../images/beanpart2.png);
       width: 331px;
       height: 573px;
       position: absolute;
@@ -52,13 +52,41 @@ header {
       top: 0px;
     }
     .bean2 {
-      background-image: url(../../images/beanpart1.png);
+      background-image: url(../images/beanpart1.png);
       width: 379px;
       height: 330px;
       position: absolute;
       transform: rotate(-90deg);
       right: -23px;
       bottom: 0px;
+    }
+  }
+  @media (max-width: 930px) {
+    .header-container {
+      h1 {
+        font-size: 12rem !important;
+      }
+      .bean1,
+      .bean2 {
+        display: none;
+      }
+    }
+  }
+  @media (max-width: 650px) {
+    .header-container {
+      .title {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        h1 {
+          font-size: 6rem !important;
+        }
+        p {
+          text-align: center;
+          line-height: 4rem;
+          font-size: 1.1rem;
+        }
+      }
     }
   }
 }
